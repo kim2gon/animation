@@ -35,8 +35,8 @@ body {
 	border-bottom-right-radius: 15%;
 }
 .eye {
-	animation: drop 1s infinite linear;
-	animation-delay: 1s;
+	/* animation: drop 1s infinite linear;
+	animation-delay: 1s; */
 }
 .eye1 {
 	position: relative;
