@@ -34,10 +34,6 @@ body {
 	border-bottom-left-radius: 15%;
 	border-bottom-right-radius: 15%;
 }
-.eye {
-	/* animation: drop 1s infinite linear;
-	animation-delay: 1s; */
-}
 .eye1 {
 	position: relative;
 	width: 30px;
