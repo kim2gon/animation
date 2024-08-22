@@ -20,8 +20,8 @@ body {
 	left: 50%;
 	top: 100px;
 	position: absolute;
-	/* animation: fly 5s ease-out infinite normal;
-	animation-delay: 1s; */
+	animation: fly 5s ease-out infinite normal;
+	animation-delay: 1s;
 }
 
 .body {
@@ -90,7 +90,7 @@ body {
 	left: 80px;
 	top: -800px;
 	z-index: 1;
-	/* animation: rotate 1s infinite linear; */
+	animation: rotate 1s infinite linear;
 }
 .hair2 {
 	position: relative;
@@ -128,7 +128,7 @@ body {
 	top: -795px;
 	border-top-left-radius: 50%;
 	border-top-right-radius: 50%;
-	/* animation: drop2 10s linear; */
+	/* animation: drop2 1s linear; */
 }
 .mouth {
 	position: relative;
@@ -155,11 +155,9 @@ body {
 @keyframes drop {
 	0% {
 		/* transform: translate(0%,0%); */
-		top: -0px;
 	}
 	100% {
 		/* transform: translate(0%,100%); */
-		top: 100px;
 	}
 }@keyframes drop2 {
 	0% {
